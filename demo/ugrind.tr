@@ -5,6 +5,8 @@
 .	sp .5v
 .	nf
 .	in 1v
+.	ft CR
+.	ps 10
 ..
 .de vE
 .	br
