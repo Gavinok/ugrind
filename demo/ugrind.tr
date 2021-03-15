@@ -26,6 +26,15 @@
 .\" Here we go!
 .sp 3v
 .vS troff
+.TL
+This Is The Title
+.AU
+Gavin Jaeger-Freeborn
+.NH
+first heading
+.ce
+this is a test
+.vE
 to call vgrind you use
 .vS troff
 .vS \" to start code block
