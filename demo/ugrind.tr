@@ -26,4 +26,18 @@
 .\" Here we go!
 .sp 3v
 .vS troff
+to call vgrind you use
+.vS troff
+.vS \" to start code block
+.vE
+.vS troff
+.vE \" to end code block
+
+.vE
+hello world 
+.vS c
+printf("hello world")
+.vE
+.vS sh
+echo "The kitchens could be said to resemble midi afternoons. Though we assume the latter, their propane was, in this moment, a mottled atom. This could be, or perhaps a recess can hardly be considered a valgus closet without also being a tree. If this was somewhat unclear, a runic chess is a current of the mind. An atilt clarinet's adapter comes with it the thought that the hooly bladder is a home."
 .vE
