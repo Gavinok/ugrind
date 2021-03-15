@@ -11,7 +11,7 @@ GSOPTS = -dPDFSETTINGS=/prepress -dEmbedAllFonts=true \
 # Ugrind settings
 UGRIND = ../ugrind
 UGRINDDEFS = ../ugrindefs
-PRE = soelim | $(UGRIND) -d $(UGRINDDEFS)
+PRE = $(UGRIND) -d $(UGRINDDEFS)
 
 # Target
 MACROS = -ms
