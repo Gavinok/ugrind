@@ -1,0 +1,33 @@
+.
+.\" K keywords, V variables
+.\" C comments, S strings
+.nr col-p 0 \" previous color
+.nr col-c 0 \" current color
+.ds col-0 grey \" default: grey
+.ds col-1 blue \" keyword: blue
+.ds col-2 cyan \" variable: cyan
+.ds col-3 green \" comment: green
+.ds col-4 magenta \" string: magenta
+.\" record the previous color, and reset it if needed.
+.defcolor keyword rgb #7D8FA3
+.defcolor var     rgb #4C5966
+.defcolor comment rgb #767676
+.defcolor string  rgb #95B47B
+.ds +K \m[keyword]
+.ds +V \m[var]
+.ds +C \m[comment]\fI
+.ds +S \m[string]
+.ds -K \m[black]
+.ds -V \m[black]
+.ds -C \m[black]\fP
+.ds -S \m[black]
+.ds e \e
+.ds - \-
+.ds _ _
+.\""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+.\" detr
+.ds e \e
+.ds -- \(en
+.ds *) *
+.ds detr \\$*
+.\""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
