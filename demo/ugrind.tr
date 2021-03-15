@@ -43,10 +43,11 @@ to call vgrind you use
 .vE \" to end code block
 
 .vE
-hello world 
+This will not be treated as code
 .vS c
 printf("hello world")
 .vE
+Currently I have not implemented a way to handle wrapping long lines
 .vS sh
 echo "The kitchens could be said to resemble midi afternoons. Though we assume the latter, their propane was, in this moment, a mottled atom. This could be, or perhaps a recess can hardly be considered a valgus closet without also being a tree. If this was somewhat unclear, a runic chess is a current of the mind. An atilt clarinet's adapter comes with it the thought that the hooly bladder is a home."
 .vE
